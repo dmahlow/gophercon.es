@@ -1,0 +1,26 @@
+<header class="header">
+  <div class="wrapper">
+    <h1 class="logo-name">
+      <a class="logo-link" href="https://www.eventbrite.co.uk/e/gophercon-eu-2019-canary-islands-tickets-55633196388?ref=ebtnebtckt" target="_blank" title="{{ .name }}" itemprop="name">{{ .name }}
+        <img class="logo-img" src="img/flag.png" width="350px">
+        <br />
+        <img class="logo-flag" src="img/flag.es.png" width="100px">
+        <img class="logo-flag" src="img/flag.canaries.png" width="100px">
+      </a>
+
+    </h1>
+    <h2 class="tagline">{{ .date }},  {{ .city }}</h2>
+
+    <div class="call-action-area">
+      {{ with .price }}
+        <span class="price">{{ . }}</span>
+      {{ end }}
+
+      {{ with .calltoaction }}
+      <a href="https://www.eventbrite.co.uk/e/gophercon-eu-2019-canary-islands-tickets-55633196388?ref=ebtnebtckt" target="_blank"><img src="https://www.eventbrite.co.uk/custombutton?eid=55633196388" alt="Eventbrite - GopherCon EU 2019 - Canary Islands" /></a>
+      {{ end }}
+    </div>
+  </div>
+</header>
+
+<hr>
