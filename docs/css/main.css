@@ -340,6 +340,11 @@ nav {
 .logo-img {
   width: 66%;
   max-width: 450px;
+  margin: 50px;
+}
+.logo-flag {
+  width: 15%;
+  max-width: 100px;
 }
 .logo-name {
   margin-bottom: 20px;
@@ -795,8 +800,6 @@ margin: ;
 }
 .location-img {
   width: 100%;
-  height: 200px;
-  overflow: hidden;
 }
 /* =============================================================================
    SPEAKER
