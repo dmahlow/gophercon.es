@@ -613,6 +613,7 @@ nav {
   .header {
     padding: 20px 0;
     min-height: 450px;
+    background-position: 0px -290px;
   }
   .logo-name {
     font-size: 4em;
@@ -704,7 +705,8 @@ nav {
    ========================================================================== */
 html {
   background: #f6f6f6;
-  font: normal normal 10px/1.2em helvetica, arial, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 60%;
   color: #777;
 }
 /* =============================================================================
@@ -740,7 +742,6 @@ nav {
   background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url('../img/cover.jpg');
   background-color: #2b2b2b;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -784,7 +785,7 @@ margin: ;
    CONTENT
    ========================================================================== */
 .content a {
-  color: #f0a303;
+  color: #272727;
 }
 .content a:hover,
 .content a:focus {
@@ -810,6 +811,7 @@ margin: ;
 .location-img {
   width: 100%;
 }
+
 /* =============================================================================
    SPEAKER
    ========================================================================== */
@@ -910,9 +912,6 @@ margin: ;
    Media Queries
    ========================================================================== */
 @media only screen and (max-width: 1024px) {
-  .header {
-    background-size: auto 100%;
-  }
 }
 @media only screen and (max-width: 480px) {
   /* speakers */
