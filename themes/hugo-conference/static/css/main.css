@@ -337,6 +337,10 @@ nav {
   text-align: center;
 
 }
+.logo-img {
+  width: 66%;
+  max-width: 450px;
+}
 .logo-name {
   margin-bottom: 20px;
   font-size: 10em;
