@@ -612,6 +612,7 @@ nav {
   }
   .header {
     padding: 20px 0;
+    min-height: 450px;
   }
   .logo-name {
     font-size: 4em;
