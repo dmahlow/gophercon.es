@@ -16,12 +16,12 @@
       <span>{{ .presentation.title }}</span>
     </h3>
 
-    <h3 class="speakers-name">{{ .name }}
-      {{ with .link }}
-      <a href="{{ .href }}" target="_blank" title="{{ .text }}"> {{ .text }} </a>
-      {{ end }}
-    </h3>
+    <h3 class="speakers-name">{{ .name }}</h3>
+    {{ with .link }}
+    <a class="speakers-link" href="{{ .href }}" target="_blank" title="{{ .text }}"> {{ .text }} </a>
+    {{ end }}
     <p class="speakers-bio">{{ .bio }}</p>
   </li>
 {{ end }}
 </ul>
+<h4>More to be announced soon</h4>

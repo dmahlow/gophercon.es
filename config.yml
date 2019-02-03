@@ -1,4 +1,4 @@
-baseurl: "https://dmahlow.github.io/gophercon.es/"
+baseurl: "https://www.gophercon.es/"
 title: "Gophercon EU"
 canonifyurls: true
 theme: "hugo-conference"
@@ -7,7 +7,7 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Name: "Gophercon EU"
+  Name: "GopherCon Europe"
   Description: "Conference description"
   Date: "30.05-01.06.2019"
   Venue: "Hard Rock Hotel"
@@ -24,8 +24,8 @@ params:
     - schedule
     - location
     - speakers
-    - cfp
     - mc
+    - cfp
     - diversityscholarship
    # - contact
 
@@ -33,10 +33,10 @@ params:
   Titles:
     schedule: "Schedule"
     location: "Location"
-    cfp: "Call for papers"
+    cfp: "Call For Papers"
     speakers: "Speakers"
-    mc: "MC"
-    diversityscholarship: "Diversity scholarship"
+    mc: "MCs"
+    diversityscholarship: "Diversity Scholarship"
     contact: "Contact"
 
   # The Call To Action button at the header,
@@ -78,26 +78,25 @@ params:
     - name: "Community day"
       time: "01.06"
 
-    - name: "Natalie Pistunovich"
-      photo: "/img/speakers/natalie.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Fraugster"
-      link:
-        href: "http://twitter.com/pisush"
-        text: "@pisush"
-      presentation:
-        title: "How to pronounce salmon"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "13h00"
 
-    - name: "Cassandra"
+    - name: "Cassandra Salisbury"
       photo: "/img/speakers/cassandra.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Fraugster"
       link:
-        href: "http://twitter.com/pisush"
-        text: "@pisush"
+        href: "https://twitter.com/cassandraoid"
+        text: "@cassandraoid"
       presentation:
-        title: "How to pronounce salmon"
+        title: ""
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "13h00"
+        time: ""
+
+  Mcs:
+    - name: "Ashley McNamara"
+      photo: "/img/mcs/host_Ashley-McNamara.jpg"
+      link:
+        href: "https://twitter.com/ashleymcnamara"
+        text: "@ashleymcnamara"
+    - name: "Steve Francia"
+      photo: "/img/mcs/host_Steve-Francia.jpg"
+      link:
+        href: "https://twitter.com/spf13"
+        text: "@spf13"
