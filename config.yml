@@ -24,15 +24,19 @@ params:
     - schedule
     - location
     - speakers
+    - cfp
     - mc
+    - diversityscholarship
    # - contact
 
   # Titles which you can translate to other languages
   Titles:
     schedule: "Schedule"
     location: "Location"
+    cfp: "Call for papers"
     speakers: "Speakers"
     mc: "MC"
+    diversityscholarship: "Diversity scholarship"
     contact: "Contact"
 
   # The Call To Action button at the header,
