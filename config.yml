@@ -1,4 +1,4 @@
-baseurl: "https://example.org/"
+baseurl: "https://dmahlow.github.io/gophercon.es/"
 title: "Gophercon EU"
 canonifyurls: true
 theme: "hugo-conference"
