@@ -823,7 +823,6 @@ margin: ;
   border-radius: 0px;
   height: 300px;
   border: 0;
-  pointer-events: none;
 }
 .location-img {
   width: 100%;
