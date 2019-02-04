@@ -304,7 +304,7 @@ h4 {
   font-size: 3em;
 }
 h5 {
-  font-size: 4em;
+  font-size: 3em;
   line-height: 1.4em;
 }
 p {
@@ -615,7 +615,7 @@ nav {
     display: none;
   }
   h5 {
-    font-size: 3em;
+    font-size: 2em;
     line-height: 1.3em;
   }
   .header {
