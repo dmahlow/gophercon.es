@@ -8,8 +8,8 @@ GoogleAnalytics: ""
 params:
   # Conference info
   Name: "GopherCon Europe"
-  Description: "Conference description"
-  Date: "30.5 - 1.62019"
+  Description: "Join us on 30.5-1.6. for the seoncd year of GopherCon Europe - this year in Tenerife."
+  Date: "30.5 - 1.6.2019"
   Venue: "Hard Rock Hotel"
   Address: ""
   City:  "Tenerife"
