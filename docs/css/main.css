@@ -946,3 +946,61 @@ margin: ;
     display: none;
   }
 }
+
+/* =============================================================================
+   Workshops
+   ========================================================================== */
+
+   body > div.featherlight > div {
+     width: 50%;
+   }
+
+
+   .workshop-modal .speaker-photo {
+     position: relative;
+     margin-bottom: 40px;
+   }
+
+   .workshop-modal p {
+     font-size: 2em;
+   }
+
+   .workshop-modal ul {
+     font-size: 2em;
+     margin-bottom: 30px;
+   }
+
+   .workshop-modal li {
+     line-height: 2em;
+   }
+
+   .workshop-modal h1 {
+     font-size: 4em;
+     margin-bottom: 30px;
+  }
+
+  .workshop-modal h2 {
+    font-size: 3em;
+  }
+
+  .workshop-modal h3 {
+    font-size: 2em;
+  }
+
+  .workshop-modal a {
+    font-size: 1em;
+  }
+
+
+  /* ==========
+     Misc
+    ========= */
+
+  img.gopher {
+    width: 20%;
+    float: right;
+  }
+
+  img.gopher.left {
+    float: left;
+  }

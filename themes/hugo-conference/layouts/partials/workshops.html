@@ -1,0 +1,41 @@
+<h2 class="section-title">{{ .titles.workshops }}</h2>
+
+<ul class="speakers-list">
+{{ range $speaker := .workshops }}
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+  <a href="#" data-featherlight="#{{ .slug }}">
+    {{ with .photo }}
+      <span class="speaker-photo">
+        <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
+      </span>
+    {{ end }}
+
+    <h3 class="speech-title">
+      {{ with .presentation.time }}
+      <span class="speech-time">{{ . }}</span>
+      {{ end }}
+      <span>{{ .presentation.title }}</span>
+    </h3>
+
+    <h3 class="speakers-name">{{ .name }}</h3>
+    {{ with .link }}
+    <h5>{{ .text }}</h5>
+    {{ end }}
+    <p class="speakers-bio">{{ .bio }}</p>
+    </a>
+    <div style="visibility: hidden; display: none;">
+      <div class="workshop-modal" id="{{ .slug }}">
+
+        {{ with .photo }}
+          <span class="speaker-photo">
+            <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
+          </span>
+        {{ end }}
+
+        {{ partial (printf "%s%s" "workshops/" $speaker.slug ) . }}
+      </div>
+    </div>
+    </a>
+  </li>
+{{ end }}
+</ul>

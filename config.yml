@@ -27,8 +27,8 @@ params:
     - speakers
     - mc
     - cfp
+    - workshops
     - diversityscholarship
-   # - contact
 
   # Titles which you can translate to other languages
   Titles:
@@ -39,7 +39,7 @@ params:
     speakers: "Speakers"
     mc: "MCs"
     diversityscholarship: "Diversity Scholarship"
-    contact: "Contact"
+    workshops: "Workshops"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
@@ -102,3 +102,22 @@ params:
       link:
         href: "https://twitter.com/spf13"
         text: "@spf13"
+
+  Workshops:
+      - name: "Bill Kennedy"
+        slug: "bill-ultimate-go"
+        photo: "/img/speakers/bill.jpg"
+        link:
+          text: "Advanced Ultimate Go"
+
+      - name: "Miki Tebeka"
+        slug: "miki-daily-go"
+        photo: "/img/speakers/miki.jpg"
+        link:
+          text: "The Daily Go"
+
+      - name: "Mark Bates"
+        slug: "mark-advanced-testing"
+        photo: "/img/speakers/mark.jpg"
+        link:
+          text: "Advanced Testing Techniques"
