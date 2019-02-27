@@ -537,6 +537,62 @@ nav {
 .form .btn {
   float: right;
 }
+
+
+/* =============================================================================
+   Workshops
+   ========================================================================== */
+
+body > div.featherlight > div {
+  width: 50%;
+}
+
+.workshop-modal .speaker-photo {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.workshop-modal p {
+  font-size: 2em;
+}
+
+.workshop-modal ul {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.workshop-modal li {
+  line-height: 2em;
+}
+
+.workshop-modal h1 {
+  font-size: 4em;
+  margin-bottom: 30px;
+ }
+
+ .workshop-modal h2 {
+   font-size: 3em;
+ }
+
+ .workshop-modal h3 {
+   font-size: 2em;
+ }
+
+ .workshop-modal a {
+   font-size: 1em;
+ }
+
+ /* ==========
+    Misc
+   ========= */
+ img.gopher {
+   width: 20%;
+   float: right;
+ }
+
+ img.gopher.left {
+   float: left;
+ }
 /* =============================================================================
    Media Queries
    ========================================================================== */
@@ -552,6 +608,14 @@ nav {
   .about {
     margin: 0;
   }
+  body > div.featherlight > div {
+    width: 100%;
+  }
+
+  .workshop-modal h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+   }
 }
 @media only screen and (min-width: 320px) and (max-width: 800px) {
   /* schedule */
@@ -571,6 +635,12 @@ nav {
     height: 40px;
     margin-right: 5px;
   }
+  .workshop-modal .speaker-photo {
+    width: 80px;
+    height: 80px;
+    margin-right: 5px;
+  }
+
   .schedule-tbl .schedule-slot {
     width: 120px;
   }
@@ -607,6 +677,9 @@ nav {
   }
   .form .btn {
     margin-bottom: 50px;
+  }
+  body > div.featherlight > div {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -683,6 +756,9 @@ nav {
   }
   .speakers-name {
     font-size: 2em;
+  }
+  body > div.featherlight > div {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 321px) {
@@ -946,61 +1022,3 @@ margin: ;
     display: none;
   }
 }
-
-/* =============================================================================
-   Workshops
-   ========================================================================== */
-
-   body > div.featherlight > div {
-     width: 50%;
-   }
-
-
-   .workshop-modal .speaker-photo {
-     position: relative;
-     margin-bottom: 40px;
-   }
-
-   .workshop-modal p {
-     font-size: 2em;
-   }
-
-   .workshop-modal ul {
-     font-size: 2em;
-     margin-bottom: 30px;
-   }
-
-   .workshop-modal li {
-     line-height: 2em;
-   }
-
-   .workshop-modal h1 {
-     font-size: 4em;
-     margin-bottom: 30px;
-  }
-
-  .workshop-modal h2 {
-    font-size: 3em;
-  }
-
-  .workshop-modal h3 {
-    font-size: 2em;
-  }
-
-  .workshop-modal a {
-    font-size: 1em;
-  }
-
-
-  /* ==========
-     Misc
-    ========= */
-
-  img.gopher {
-    width: 20%;
-    float: right;
-  }
-
-  img.gopher.left {
-    float: left;
-  }
