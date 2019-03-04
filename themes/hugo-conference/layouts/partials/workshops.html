@@ -4,11 +4,12 @@
 {{ range $speaker := .workshops }}
   <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
   <a href="#" data-featherlight="#{{ .slug }}">
-    {{ with .photo }}
-      <span class="speaker-photo">
-        <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
-      </span>
-    {{ end }}
+        <span class="speaker-photo">
+      {{ range $photo := .photos }}
+          <img class="photo" src="{{ $photo }}" alt="{{ $speaker.name }}" itemprop="image">
+      {{ end }}
+
+        </span>
 
     <h3 class="speech-title">
       {{ with .presentation.time }}
@@ -26,11 +27,12 @@
     <div style="visibility: hidden; display: none;">
       <div class="workshop-modal" id="{{ .slug }}">
 
-        {{ with .photo }}
-          <span class="speaker-photo">
-            <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
-          </span>
+          <span class="speaker-photo" style="display: inline-flex;">
+        {{ range $photo := .photos }}
+            <img class="photo" src="{{ $photo }}" alt="{{ $speaker.name }}" itemprop="image">
         {{ end }}
+
+          </span>
 
         {{ partial (printf "%s%s" "workshops/" $speaker.slug ) . }}
       </div>

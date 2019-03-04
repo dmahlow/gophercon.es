@@ -106,18 +106,24 @@ params:
   Workshops:
       - name: "Bill Kennedy"
         slug: "bill-ultimate-go"
-        photo: "/img/speakers/bill.jpg"
+        photos: ["/img/speakers/bill.jpg"]
         link:
           text: "Advanced Ultimate Go"
 
       - name: "Miki Tebeka"
         slug: "miki-daily-go"
-        photo: "/img/speakers/miki.jpg"
+        photos: ["/img/speakers/miki.jpg"]
         link:
           text: "The Daily Go"
 
       - name: "Mark Bates"
         slug: "mark-advanced-testing"
-        photo: "/img/speakers/mark.jpg"
+        photos: ["/img/speakers/mark.jpg"]
         link:
           text: "Advanced Testing Techniques"
+
+      - name: "Elena Grahovac & Daniel Mahlow"
+        slug: "elena-production-go"
+        photos: ["/img/speakers/elena.png", "/img/speakers/daniel.png"]
+        link:
+          text: "Production ready cloud-native services with Go and Kubernetes"
