@@ -30,6 +30,7 @@ params:
     - diversityscholarship
     - sponsors
     - visa
+    - discount
 
   # Titles which you can translate to other languages
   Titles:
@@ -43,6 +44,7 @@ params:
     workshops: "Workshops"
     sponsors: "Sponsorship"
     visa: "Visa Assistance Letters"
+    discount: "Student Discount"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
