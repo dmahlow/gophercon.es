@@ -28,6 +28,7 @@ params:
     - mc
     - workshops
     - diversityscholarship
+    - sponsors
 
   # Titles which you can translate to other languages
   Titles:
@@ -39,6 +40,7 @@ params:
     mc: "MCs"
     diversityscholarship: "Diversity Scholarship"
     workshops: "Workshops"
+    sponsors: "Sponsorship"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
