@@ -73,19 +73,51 @@ params:
 
   # The entire schedule
   Schedule:
-    - name: "Workshops"
-      time: "30.05"
+    - time: 9:00-9:15
+      track1: Opening words
+    - time: 9:15-9:45
+      track1: Opening Keynote
+    - time: 9:45-10:00
+      track1: Break
+    - time: 10:00-10:30
+      track1: Talk
+      track2: Talk
+    - time: 10:30-10:45
+      track1: Break
+    - time: 10:45-11:15
+      track1: Talk
+      track2: Talk
+    - time: 11:15-11:30
+      track1: Break
+    - time: 11:30-12:00
+      track1: Talk
+      track2: Talk
+    - time: 12:00-13:30
+      track1: Lunch
+    - time: 13:30-14:00
+      track1: Talk
+      track2: Talk
+    - time: 14:00-14:15
+      track1: Break
+    - time: 14:15-14:45
+      track1: Talk
+      track2: Talk
+    - time: 14:45-15:30
+      track1: Coffee break
+    - time: 15:30-16:00
+      track1: Talk
+      track2: Talk
+    - time: 16:15-16:45
+      track1: Closing keynote
+    - time: 16:00-16:15
+      track1: Break
+    - time: 16:45-17:00
+      track1: Final words
 
-    - name: "Talks track 1"
-      time: "31.05"
-
-    - name: "Talks track 2"
-      time: "31.05"
-
-    - name: "Community day"
-      time: "01.06"
 
 
+
+  Speakers:
     - name: "Cassandra Salisbury"
       photo: "/img/speakers/cassandra.jpg"
       link:

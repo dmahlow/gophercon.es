@@ -1,5 +1,6 @@
 <h2 class="section-title">{{ .titles.schedule }}</h2>
 
+<h4>May 30th</h4>
 <div class="schedule-tbl">
   <table>
     <thead>
@@ -7,29 +8,56 @@
       </tr>
     </thead>
     <tbody>
-      {{ range $slot := .schedule }}
-        <!-- {{ if ne .presentation nil }}
-          <tr>
-            <td class="schedule-time">{{ .presentation.time }}</td>
-            <td class="schedule-slot">
-            {{ with .photo }}
-              <span class="speaker-photo">
-                <img class="photo" src="{{ . }}" alt="{{ $slot.name }}">
-              </span>
-            {{ end }}
+        <tr class="schedule-other">
+          <td class="schedule-slot"></td>
+          <td class="schedule-time"><a href="/#workshops">Workshops</a></td>
 
-              {{ .presentation.title }}
-              <span class="speakers-company">{{ .company }}</span>
-            </td>
-            <td class="schedule-description">{{ .presentation.description }}</td>
-          </tr>
-        {{ else }} -->
-          <tr class="schedule-other">
-            <td class="schedule-time">{{ .time }}</td>
-            <td class="schedule-slot">{{ .name }}</td>
-          </tr>
-        <!-- {{ end }} -->
+          <td class="schedule-slot"></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<h4>May 31st</h4>
+<div class="schedule-tbl">
+  <table>
+    <thead>
+      <tr>
+      </tr>
+    </thead>
+    <tbody>
+        <tr class="schedule-other">
+          <td class="schedule-time" width="30%">Time</td>
+          <td class="schedule-slot">Track 1</td>
+          <td class="schedule-slot">Track 2</td>
+        </tr>
+      {{ range $slot := .schedule }}
+        <tr class="schedule-other">
+          <td class="schedule-time">{{ .time }}</td>
+          <td class="schedule-slot">{{ .track1 }}</td>
+          <td class="schedule-slot">{{ .track2 }}</td>
+        </tr>
       {{ end }}
     </tbody>
   </table>
+</div>
+
+<h4>June 1st</h4>
+<div class="schedule-tbl">
+  <table>
+    <thead>
+      <tr>
+      </tr>
+    </thead>
+    <tbody>
+        <tr class="schedule-other">
+          <td class="schedule-time" width="30%">10:00-10:30</td>
+          <td class="schedule-slot">Community gatherings and Lightning Talks</td>
+        </tr>
+        <tr class="schedule-other">
+          <td class="schedule-time"></td>
+          <td class="schedule-slot">(Follow our updates for the call for communities!)</td>
+        </tr>
+    </tbody>
+</table>
 </div>
