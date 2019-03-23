@@ -27,7 +27,6 @@ params:
     - speakers
     - mc
     - workshops
-    - diversityscholarship
     - sponsors
     - visa
     - discount
@@ -40,7 +39,6 @@ params:
     cfp: "Call For Papers"
     speakers: "Speakers"
     mc: "MCs"
-    diversityscholarship: "Diversity Scholarship"
     workshops: "Workshops"
     sponsors: "Sponsorship"
     visa: "Visa Assistance Letters"
