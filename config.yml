@@ -30,6 +30,7 @@ params:
     - sponsors
     - visa
     - discount
+    - mailing
 
   # Titles which you can translate to other languages
   Titles:
@@ -43,6 +44,7 @@ params:
     sponsors: "Sponsorship"
     visa: "Visa Assistance Letters"
     discount: "Student Discount"
+    mailing: "Subscribe to our mailing list"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
