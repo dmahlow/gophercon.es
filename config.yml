@@ -1,5 +1,5 @@
 baseurl: "https://www.gophercon.es/"
-title: "Gophercon EU"
+title: "GopherCon Europe"
 canonifyurls: true
 theme: "hugo-conference"
 
@@ -14,7 +14,7 @@ params:
   Address: ""
   City:  "Tenerife"
   State: "Spain"
-  Images: ["/img/badge.jpg"]
+  Images: ["https://www.gophercon.es/img/flag.png"]
   GoogleMapsKey: "my-secret-maps-key"
 
 
