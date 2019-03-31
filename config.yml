@@ -141,7 +141,7 @@ params:
       twitter:
         href: "https://twitter.com/hugelgupf"
         text: "@hugelgupf"
-      presentation: "LinuxBoot: Firmware Tools & a busybux in Go"
+      presentation: "LinuxBoot: Firmware Tools & a busybox in Go"
       company: "Google"
       title: "Software Engineer"
 
