@@ -5,8 +5,12 @@
   <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
   <a href="#" data-featherlight="#{{ .slug }}">
         <span class="speaker-photo">
-      {{ range $photo := .photos }}
-          <img class="photo" src="{{ $photo }}" alt="{{ $speaker.name }}" itemprop="image">
+        {{ range $index, $photo := .photos }}
+          {{ if gt $index 0 }}
+            <img class="photo double" src="{{ $photo }}" alt="{{ $speaker.name }}" itemprop="image">
+          {{ else }}
+            <img class="photo" src="{{ $photo }}" alt="{{ $speaker.name }}" itemprop="image">
+        {{ end }}
       {{ end }}
 
         </span>

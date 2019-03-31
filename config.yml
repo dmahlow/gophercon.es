@@ -114,19 +114,116 @@ params:
     - time: 16:45-17:00
       track1: Final words
 
-
-
-
   Speakers:
+    - name: "Julie Qui"
+      slug: "julie-qui"
+      photo: "/img/speakers/julie.jpg"
+      twitter:
+        href: "https://twitter.com/JQiu25"
+        text: "@JQiu25"
+      presentation: "Building Modules Discovery"
+      company: "Google"
+      title: "Software Engineer"
+
+    - name: "Aaron Schlesinger"
+      slug: "aaron-schlesinger"
+      photo: "/img/speakers/aaron.png"
+      twitter:
+        href: "https://twitter.com/arschles"
+        text: "@arschles"
+      presentation: "The Athens Project - A Proxy Server for Go Modules"
+      company: "Microsoft"
+      title: "Sr. Developer Advocate"
+
+    - name: "Chris Koch"
+      slug: "chris-koch"
+      photo: "/img/speakers/chris.jpg"
+      twitter:
+        href: "https://twitter.com/hugelgupf"
+        text: "@hugelgupf"
+      presentation: "LinuxBoot: Firmware Tools & a busybux in Go"
+      company: "Google"
+      title: "Software Engineer"
+
     - name: "Cassandra Salisbury"
+      slug: "cassandra-salisbury"
       photo: "/img/speakers/cassandra.jpg"
-      link:
+      twitter:
         href: "https://twitter.com/cassandraoid"
         text: "@cassandraoid"
-      presentation:
-        title: ""
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: ""
+      presentation: "tba"
+      title: "Open Source Strategy Lead for the Go Team"
+      company: "Google"
+
+    - name: "Mat Ryer"
+      slug: "mat-ryer"
+      photo: "/img/speakers/mat.png"
+      twitter:
+        href: "https://twitter.com/matryer"
+        text: "@matryer"
+      presentation: "How I Write HTTP Web Services After Eight Years"
+      title: "Co-founder of Machine Box"
+      company: "Veritone"
+
+    - name: "Ivan Daniluk"
+      slug: "ivan-daniluk"
+      photo: "/img/speakers/ivan.jpg"
+      twitter:
+        href: "https://twitter.com/idanyliuk"
+        text: "@idanyliuk"
+      presentation: "Rethinking Visual Programming With Go"
+      title: ""
+      company: ""
+
+    - name: "Ellen Körbes"
+      slug: "ellen-korbes"
+      photo: "/img/speakers/ellen.png"
+      twitter:
+        href: "https://twitter.com/ellenkorbes"
+        text: "@ellenkorbes"
+      presentation: "Learn Neural Networks With Go - Not Math!"
+      title: "Developer Advocate"
+      company: "Garden"
+
+    - name: "Vicki Niu"
+      slug: "vicki-niu"
+      photo: "/img/speakers/vicki.jpg"
+      twitter:
+        href: "https://twitter.com/vickiniu"
+        text: "@vickiniu"
+      presentation: "Off the Chain! Scaling Blockchains in Go"
+      title: "Software Engineer"
+      company: "Interstellar"
+
+    - name: "Sara Báez García"
+      slug: "sara-carlos"
+      photo: "/img/speakers/sara.png"
+      twitter:
+        href: "https://twitter.com/Bz_Sara"
+        text: "@Bz_Sara"
+      presentation: "API Gateway, A Success Story (Joined Talk)"
+      title: "Backend Team Lead"
+      company: "System73"
+
+    - name: "Carlos González Vila"
+      slug: "sara-carlos"
+      photo: "/img/speakers/carlos.png"
+      twitter:
+        href: "https://twitter.com/carlosglezvila"
+        text: "@carlosglezvila"
+      presentation: "API Gateway, A Success Story (Joined Talk)"
+      title: "Infrastructure Team Lead"
+      company: "System73"
+
+    - name: "Egon Elbre"
+      slug: "egon-elbre"
+      photo: "/img/speakers/egon.png"
+      twitter:
+        href: "https://twitter.com/egonelbre"
+        text: "@egonelbre"
+      presentation: "Psychology of Code Readability"
+      title: ""
+      company: ""
 
   Mcs:
     - name: "Ashley McNamara"
@@ -160,6 +257,7 @@ params:
           text: "Advanced Testing Techniques"
 
       - name: "Elena Grahovac & Daniel Mahlow"
+        group: true
         slug: "elena-production-go"
         photos: ["/img/speakers/elena.png", "/img/speakers/daniel.png"]
         link:

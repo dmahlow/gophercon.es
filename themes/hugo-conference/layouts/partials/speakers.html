@@ -3,24 +3,37 @@
 <ul class="speakers-list">
 {{ range $speaker := .speakers }}
   <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+<a href="#" data-featherlight="#{{ .slug }}">
     {{ with .photo }}
       <span class="speaker-photo">
         <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
       </span>
     {{ end }}
 
-    <h3 class="speech-title">
-      {{ with .presentation.time }}
-      <span class="speech-time">{{ . }}</span>
-      {{ end }}
-      <span>{{ .presentation.title }}</span>
-    </h3>
-
     <h3 class="speakers-name">{{ .name }}</h3>
-    {{ with .link }}
-    <a class="speakers-link" href="{{ .href }}" target="_blank" title="{{ .text }}"> {{ .text }} </a>
+    <h3 class="speech-title">{{ .presentation }}</h3>
+    {{ if .title }}
+    <p class="speakers-bio" style="text-decoration: none;">{{ .title }} - {{ .company }}</p>
     {{ end }}
-    <p class="speakers-bio">{{ .bio }}</p>
+
+    {{ with .twitter }}
+    <a class="speakers-link" href="{{ .href }}" target="_blank" title="{{ .text }}"> <img src="/img/twitter-16.png"> {{ .text }} </a>
+    {{ end }}
+
+    <div style="visibility: hidden; display: none;">
+      <div class="workshop-modal" id="{{ .slug }}">
+
+          <span class="speaker-photo" style="display: inline-flex;">
+        {{ with .photo }}
+            <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
+        {{ end }}
+
+          </span>
+
+        {{ partial (printf "%s%s" "speakers/" $speaker.slug ) . }}
+      </div>
+    </div>
+  </a>
   </li>
 {{ end }}
 </ul>
