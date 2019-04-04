@@ -225,6 +225,16 @@ params:
       title: ""
       company: ""
 
+    - name: "Kevin Hungai Amuhinda"
+      slug: "kevin-hungai-amuhinda"
+      photo: "/img/speakers/kevin.png"
+      twitter:
+        href: "https://twitter.com/Hungai"
+        text: "@Hungai"
+      presentation: "Everything You Wanted to Know About Distributed Tracing in Go"
+      title: ""
+      company: ""
+
   Mcs:
     - name: "Ashley McNamara"
       photo: "/img/mcs/host_Ashley-McNamara.jpg"
