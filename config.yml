@@ -235,6 +235,17 @@ params:
       title: ""
       company: ""
 
+    - name: "Tom Ogoma"
+      slug: "tom-ogoma"
+      photo: "/img/speakers/tom.png"
+      twitter:
+        href: "https://twitter.com/tom_ogoma"
+        text: "@tom_ogoma"
+      presentation: "Implementing RESTful APIs in Go"
+      title: "Senior Consultant"
+      company: "Andela"
+
+
   Mcs:
     - name: "Ashley McNamara"
       photo: "/img/mcs/host_Ashley-McNamara.jpg"
