@@ -32,8 +32,12 @@
       {{ range $slot := .schedule }}
         <tr class="schedule-other">
           <td class="schedule-time">{{ .time }}</td>
-          <td class="schedule-slot">{{ .track1 }}</td>
-          <td class="schedule-slot">{{ .track2 }}</td>
+          <td class="schedule-slot">
+            {{ .track1 }}
+          </td>
+          <td class="schedule-slot">
+            {{ .track2 }}
+          </td>
         </tr>
       {{ end }}
     </tbody>

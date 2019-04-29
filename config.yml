@@ -76,41 +76,41 @@ params:
     - time: 9:00-9:15
       track1: Opening words
     - time: 9:15-9:45
-      track1: Opening Keynote
+      track1: Opening Keynote by Cassandra Salisbury
     - time: 9:45-10:00
       track1: Break
     - time: 10:00-10:30
-      track1: Talk
-      track2: Talk
+      track1: "Building Modules Discovery - Julie Qui"
+      track2: "Implementing RESTful APIs - Tom Ogoma"
     - time: 10:30-10:45
       track1: Break
     - time: 10:45-11:15
-      track1: Talk
-      track2: Talk
+      track1: "How I write HTTP web services after 8 years - Mat Ryer"
+      track2: "LinuxBoot: Firmware Tools & a busybox in G - Chris Koch"
     - time: 11:15-11:30
       track1: Break
     - time: 11:30-12:00
-      track1: Talk
-      track2: Talk
+      track1: "The Athens Project - Aaron Schlesinger"
+      track2: "Distributed Tracing Kevin Amuhinda"
     - time: 12:00-13:30
       track1: Lunch
     - time: 13:30-14:00
-      track1: Talk
-      track2: Talk
+      track1: "API Gateway: a Success Story - Carlos, Sara"
+      track2: "Tackling contention: the monster in sync.Locker - Roberto Clapis"
     - time: 14:00-14:15
       track1: Break
     - time: 14:15-14:45
-      track1: Talk
-      track2: Talk
+      track1: "Psychology of Code Readability - Egon Elbre"
+      track2: "Off the chain: scaling blockchains in Go - Vicki Niu"
     - time: 14:45-15:30
       track1: Coffee break
     - time: 15:30-16:00
-      track1: Talk
-      track2: Talk
-    - time: 16:15-16:45
-      track1: Closing keynote
+      track1: "Rethinking Visual Programming - Ivan Daniluk"
+      track2: "Learn neural networks with Go, not math - Ellen Körbes"
     - time: 16:00-16:15
       track1: Break
+    - time: 16:15-16:45
+      track1: "Panel Discussion - The Go team"
     - time: 16:45-17:00
       track1: Final words
 
