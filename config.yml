@@ -80,13 +80,13 @@ params:
     - time: 9:45-10:00
       track1: Break
     - time: 10:00-10:30
-      track1: "Building Modules Discovery - Julie Qui"
+      track1: "Building Modules Discovery - Julie Qiu"
       track2: "Implementing RESTful APIs - Tom Ogoma"
     - time: 10:30-10:45
       track1: Break
     - time: 10:45-11:15
       track1: "How I write HTTP web services after 8 years - Mat Ryer"
-      track2: "LinuxBoot: Firmware Tools & a busybox in G - Chris Koch"
+      track2: "LinuxBoot: Firmware Tools & a busybox in Go - Chris Koch"
     - time: 11:15-11:30
       track1: Break
     - time: 11:30-12:00
@@ -115,8 +115,8 @@ params:
       track1: Final words
 
   Speakers:
-    - name: "Julie Qui"
-      slug: "julie-qui"
+    - name: "Julie Qiu"
+      slug: "julie-qiu"
       photo: "/img/speakers/julie.jpg"
       twitter:
         href: "https://twitter.com/JQiu25"
