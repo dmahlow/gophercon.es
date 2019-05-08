@@ -80,7 +80,7 @@ params:
     - time: 9:45-10:00
       track1: Break
     - time: 10:00-10:30
-      track1: "Building Modules Discovery - Julie Qiu"
+      track1: "Finding Dependable Go Packages - Julie Qiu"
       track2: "Implementing RESTful APIs - Tom Ogoma"
     - time: 10:30-10:45
       track1: Break
