@@ -87,29 +87,29 @@ params:
     - time: 10:45-11:15
       track1: "How I write HTTP web services after 8 years - Mat Ryer"
       track2: "LinuxBoot: Firmware Tools & a busybox in Go - Chris Koch"
-    - time: 11:15-11:30
-      track1: Break
-    - time: 11:30-12:00
+    - time: 11:15-11:45
+      track1: Coffee break
+    - time: 11:45-12:15
       track1: "The Athens Project - Aaron Schlesinger"
       track2: "Distributed Tracing Kevin Amuhinda"
-    - time: 12:00-13:30
-      track1: Lunch
-    - time: 13:30-14:00
+    - time: 12:15-12:30
+      track1: Break
+    - time: 12:30-13:00
       track1: "API Gateway: a Success Story - Carlos, Sara"
       track2: "Tackling contention: the monster in sync.Locker - Roberto Clapis"
-    - time: 14:00-14:15
-      track1: Break
-    - time: 14:15-14:45
+    - time: 13:00-14:30
+      track1: Lunch
+    - time: 14:30-15:00
       track1: "Psychology of Code Readability - Egon Elbre"
       track2: "Off the chain: scaling blockchains in Go - Vicki Niu"
-    - time: 14:45-15:30
-      track1: Coffee break
-    - time: 15:30-16:00
+    - time: 15:00-15:15
+      track1: Break
+    - time: 15:15-15:45
       track1: "Rethinking Visual Programming - Ivan Daniluk"
       track2: "Learn neural networks with Go, not math - Ellen Körbes"
-    - time: 16:00-16:15
+    - time: 15:45-16:00
       track1: Break
-    - time: 16:15-16:45
+    - time: 16:00-16:45
       track1: "Panel Discussion - The Go team"
     - time: 16:45-17:00
       track1: Final words
