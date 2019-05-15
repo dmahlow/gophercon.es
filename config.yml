@@ -271,12 +271,6 @@ params:
         link:
           text: "The Daily Go"
 
-      - name: "Mark Bates"
-        slug: "mark-advanced-testing"
-        photos: ["/img/speakers/mark.jpg"]
-        link:
-          text: "Advanced Testing Techniques"
-
       - name: "Elena Grahovac & Daniel Mahlow"
         group: true
         slug: "elena-production-go"
