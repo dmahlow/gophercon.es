@@ -73,6 +73,9 @@ params:
 
   # The entire schedule
   Schedule:
+    - time: 8:00-9:00
+      track1: Registration
+      track2: Breakfast
     - time: 9:00-9:15
       track1: Opening words
     - time: 9:15-9:45
