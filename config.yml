@@ -116,6 +116,8 @@ params:
       track1: "Panel Discussion - The Go team"
     - time: 16:45-17:00
       track1: Final words
+    - time: 18:30-20:00
+      track1: Social event
 
   Speakers:
     - name: "Julie Qiu"
