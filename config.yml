@@ -74,8 +74,7 @@ params:
   # The entire schedule
   Schedule:
     - time: 8:00-9:00
-      track1: Registration
-      track2: Breakfast
+      track1: Registration & Breakfast
     - time: 9:00-9:15
       track1: Opening words
     - time: 9:15-9:45
@@ -84,32 +83,43 @@ params:
       track1: Break
     - time: 10:00-10:30
       track1: "Finding Dependable Go Packages - Julie Qiu"
+      track1Slug: julie-qiu
       track2: "Implementing RESTful APIs - Tom Ogoma"
+      track2Slug: "tom-ogoma"
     - time: 10:30-10:45
       track1: Break
     - time: 10:45-11:15
       track1: "How I write HTTP web services after 8 years - Mat Ryer"
+      track1Slug: mat-ryer
       track2: "LinuxBoot: Firmware Tools & a busybox in Go - Chris Koch"
+      track2Slug: chris-koch
     - time: 11:15-11:45
       track1: Coffee break
     - time: 11:45-12:15
       track1: "The Athens Project - Aaron Schlesinger"
+      track1Slug: aaron-schlesinger
       track2: "Distributed Tracing Kevin Amuhinda"
+      track2Slug: kevin-hungai-amuhinda
     - time: 12:15-12:30
       track1: Break
     - time: 12:30-13:00
       track1: "API Gateway: a Success Story - Carlos, Sara"
+      track1Slug: sara-carlos
       track2: "Tackling contention: the monster in sync.Locker - Roberto Clapis"
     - time: 13:00-14:30
       track1: Lunch
     - time: 14:30-15:00
       track1: "Psychology of Code Readability - Egon Elbre"
+      track1Slug: egon-elbre
       track2: "Off the chain: scaling blockchains in Go - Vicki Niu"
+      track2Slug: vicki-niu
     - time: 15:00-15:15
       track1: Break
     - time: 15:15-15:45
       track1: "Rethinking Visual Programming - Ivan Daniluk"
+      track1Slug: ivan-daniluk
       track2: "Learn neural networks with Go, not math - Ellen Körbes"
+      track2Slug: "ellen-korbes"
     - time: 15:45-16:00
       track1: Break
     - time: 16:00-16:45

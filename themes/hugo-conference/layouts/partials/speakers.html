@@ -3,7 +3,10 @@
 <ul class="speakers-list">
 {{ range $speaker := .speakers }}
   <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-<a href="#" data-featherlight="#{{ .slug }}">
+  <div class="anchorWrap" style="position:relative;  top:-100px;">
+    <a id="{{ .slug }}-anchor" class="anchor"></a>
+  </div>
+  <a href="#" data-featherlight="#{{ .slug }}">
     {{ with .photo }}
       <span class="speaker-photo">
         <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">

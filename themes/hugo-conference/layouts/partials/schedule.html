@@ -10,7 +10,7 @@
     <tbody>
         <tr class="schedule-other">
           <td class="schedule-time" width="30%">8:30-9:00</td>
-          <td class="schedule-slot">Breakfast & Registration</td>
+          <td class="schedule-slot">Registration & Breakfast</td>
         </tr>
         <tr class="schedule-other">
           <td class="schedule-time" width="30%">9:00-13:00</td>
@@ -44,10 +44,10 @@
         <tr class="schedule-other">
           <td class="schedule-time">{{ .time }}</td>
           <td class="schedule-slot">
-            {{ .track1 }}
+            <a href="#{{ .track1Slug }}-anchor">{{ .track1 }}</a>
           </td>
           <td class="schedule-slot">
-            {{ .track2 }}
+            <a href="#{{ .track2Slug }}-anchor">{{ .track2 }}</a>
           </td>
         </tr>
       {{ end }}
