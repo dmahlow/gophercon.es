@@ -106,6 +106,7 @@ params:
       track1: "API Gateway: a Success Story - Carlos, Sara"
       track1Slug: sara-carlos
       track2: "Tackling Contention : The Monster in sync.Locker - Roberto Clapis"
+      track2Slug: "roberto-clapis"
     - time: 13:00-14:30
       track1: Lunch
     - time: 14:30-15:00
@@ -260,6 +261,15 @@ params:
       title: "Senior Consultant"
       company: "Andela"
 
+    - name: "Roberto Clapis"
+      slug: "roberto-clapis"
+      photo: "/img/speakers/roberto.png"
+      twitter:
+        href: "http://twitter.com/empijei"
+        text: "@empijei"
+      presentation: "Tackling Contention: The Monster in sync.Locker"
+      title: "Security Engineer"
+      company: "Google"
 
   Mcs:
     - name: "Ashley McNamara"
