@@ -557,6 +557,11 @@ body > div.featherlight > div {
   width: 50%;
 }
 
+.featherlight-close-icon {
+  font-size: 30px;
+  margin: 15px;
+}
+
 .workshop-modal .speaker-photo {
   position: relative;
   margin-bottom: 40px;
